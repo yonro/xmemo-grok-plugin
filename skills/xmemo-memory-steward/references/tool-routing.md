@@ -1,6 +1,6 @@
 # XMemo tool routing for Grok Build
 
-Grok Build connects to `https://xmemo.dev/mcp` through interactive OAuth. The signed Grok Build identity currently selects the ordinary authenticated tool profile. The server may evolve that profile, so use active discovery rather than a hard-coded tool count.
+Grok Build connects to `https://xmemo.dev/mcp` through interactive OAuth. The server advertises the tool profile available to the signed-in identity and scope. That profile may evolve, so use active discovery rather than a hard-coded tool count.
 
 ## Primary workflow routes
 

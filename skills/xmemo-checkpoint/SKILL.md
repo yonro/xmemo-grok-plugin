@@ -1,6 +1,6 @@
 ---
 name: xmemo-checkpoint
-description: Preserve a concise XMemo checkpoint after sustained material work, a completed phase, a blocker, an interruption, or a Grok Build stop-hook reminder. Use only when verified project state changed; skip redundant or speculative saves.
+description: Preserve a concise XMemo checkpoint after sustained material work, a completed phase, a blocker, an interruption, or a Grok Build work-session reminder. Use only when verified project state changed; skip redundant or speculative saves.
 ---
 
 # Save a verified checkpoint
