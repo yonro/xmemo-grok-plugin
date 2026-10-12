@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "xmemo": {
+      "type": "http",
+      "url": "https://xmemo.dev/mcp"
+    }
+  }
+}

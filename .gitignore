@@ -1,0 +1,14 @@
+# Local and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.grok-plugin/plugin-index.json
+.grok-plugin/marketplace.json
+.grok/

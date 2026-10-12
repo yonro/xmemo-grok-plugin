@@ -1,0 +1,19 @@
+{
+  "name": "xmemo",
+  "version": "1.0.0",
+  "description": "Durable, user-owned project memory and cross-agent continuity for Grok Build through XMemo's hosted MCP service.",
+  "author": {
+    "name": "XMemo",
+    "url": "https://xmemo.dev"
+  },
+  "homepage": "https://xmemo.dev/product/mcp",
+  "license": "MIT",
+  "keywords": [
+    "xmemo",
+    "xmemo memory",
+    "xmemo mcp",
+    "project continuity",
+    "cross-agent handoff"
+  ],
+  "logo": "assets/logo.png"
+}
