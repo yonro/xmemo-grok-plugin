@@ -27,7 +27,7 @@ Grok-specific client authorization and marketplace review gates.
 | Grok MCP handshake/tools/list | **PARTIAL** | `grok mcp doctor XMemo` completed the handshake and discovered 31 tools, but the duplicate `XMemo` name resolved to an existing `~/.grok/config.toml` server rather than proving plugin-specific OAuth. |
 | Grok memory read/write | **NOT RUN** | Requires a Grok-authorized synthetic test record and cleanup. |
 | Grok isolation/revocation/resume | **NOT RUN** | Requires Grok-specific authenticated and multi-session evidence. |
-| Public source repository | **VERIFIED** | `https://github.com/yonro/xmemo-grok-plugin` is public, MIT licensed, and contains commit `28e5ad73d591adf4bd619899b9ff974d39a380e0`. |
+| Public source repository | **VERIFIED** | `https://github.com/yonro/xmemo-grok-plugin` is public, MIT licensed, and reachable from GitHub. The Marketplace PR pins the exact tested commit SHA. |
 | xAI Marketplace catalog PR | **NOT SUBMITTED** | The catalog entry and generated index must be prepared only after the public source commit exists. |
 
 ## Marketplace gate
