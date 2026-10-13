@@ -7,6 +7,7 @@
     "url": "https://xmemo.dev"
   },
   "homepage": "https://xmemo.dev/product/mcp",
+  "repository": "https://github.com/yonro/xmemo-grok-plugin",
   "license": "MIT",
   "keywords": [
     "xmemo",

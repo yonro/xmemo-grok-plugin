@@ -40,7 +40,7 @@ if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", str(manifest.get("name", ""))):
     ERRORS.append("manifest name must be lowercase kebab-case")
 if not re.fullmatch(r"0|[1-9]\d*\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?", str(manifest.get("version", ""))):
     ERRORS.append("manifest version must be semantic")
-for key in ("description", "author", "homepage", "license", "keywords", "logo"):
+for key in ("description", "author", "homepage", "repository", "license", "keywords", "logo"):
     if key not in manifest:
         ERRORS.append(f"manifest missing {key}")
 if not isinstance(manifest.get("author"), dict) or not manifest["author"].get("name"):
