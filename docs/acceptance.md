@@ -28,7 +28,7 @@ Grok-specific client authorization and marketplace review gates.
 | Grok memory read/write | **NOT RUN** | Requires a Grok-authorized synthetic test record and cleanup. |
 | Grok isolation/revocation/resume | **NOT RUN** | Requires Grok-specific authenticated and multi-session evidence. |
 | Public source repository | **VERIFIED** | `https://github.com/yonro/xmemo-grok-plugin` is public, MIT licensed, and reachable from GitHub. The Marketplace PR pins the exact tested commit SHA. |
-| xAI Marketplace catalog PR | **NOT SUBMITTED** | The catalog entry and generated index must be prepared only after the public source commit exists. |
+| xAI Marketplace catalog PR | **SUBMITTED / PENDING REVIEW** | [PR #1412](https://github.com/xai-org/plugin-marketplace/pull/1412) adds XMemo to the official catalog. The PR pins the tested source commit and is awaiting maintainer review; it is not merged or publicly indexed yet. |
 
 ## Marketplace gate
 
