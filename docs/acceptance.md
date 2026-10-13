@@ -22,12 +22,12 @@ Grok-specific client authorization and marketplace review gates.
 | Grok CLI manifest validator | **VERIFIED** | Grok CLI `1.0.13` ran `grok plugin validate .` and reported `Plugin manifest is valid`. |
 | Endpoint protection | **VERIFIED** | Unauthenticated `GET https://xmemo.dev/mcp` returned HTTP 401. |
 | OAuth discovery | **VERIFIED** | XMemo authorization-server and protected-resource metadata returned HTTP 200. |
-| Grok local plugin load | **NOT RUN** | Requires a Grok Build client with the local plugin flow enabled. |
+| Grok local plugin load | **VERIFIED** | `grok plugin install --trust .` installed XMemo and `grok plugin details xmemo` reported the manifest and components. |
 | Grok OAuth authorization | **NOT RUN** | Requires a signed-in Grok Build session and an approved browser consent flow. |
-| Grok tools/list | **NOT RUN** | No authenticated Grok MCP session was available for this package audit. |
+| Grok MCP handshake/tools/list | **PARTIAL** | `grok mcp doctor XMemo` completed the handshake and discovered 31 tools, but the duplicate `XMemo` name resolved to an existing `~/.grok/config.toml` server rather than proving plugin-specific OAuth. |
 | Grok memory read/write | **NOT RUN** | Requires a Grok-authorized synthetic test record and cleanup. |
 | Grok isolation/revocation/resume | **NOT RUN** | Requires Grok-specific authenticated and multi-session evidence. |
-| Public source repository | **NOT PUBLISHED** | The package is currently a local repository; no public source commit is available for catalog pinning. |
+| Public source repository | **VERIFIED** | `https://github.com/yonro/xmemo-grok-plugin` is public, MIT licensed, and contains commit `28e5ad73d591adf4bd619899b9ff974d39a380e0`. |
 | xAI Marketplace catalog PR | **NOT SUBMITTED** | The catalog entry and generated index must be prepared only after the public source commit exists. |
 
 ## Marketplace gate

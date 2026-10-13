@@ -72,6 +72,7 @@ See [PRIVACY.md](PRIVACY.md) and [SECURITY.md](SECURITY.md).
 ```bash
 python scripts/validate_plugin.py
 grok plugin validate .
+grok plugin install --trust .
 ```
 
 The acceptance record separates package checks and endpoint connectivity from the
