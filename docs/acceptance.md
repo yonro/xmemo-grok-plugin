@@ -19,6 +19,7 @@ Grok-specific client authorization and marketplace review gates.
 | MCP declaration | **VERIFIED** | `.mcp.json` declares exactly one HTTP server at `https://xmemo.dev/mcp`. |
 | Skill discovery | **VERIFIED** | Nine `skills/*/SKILL.md` files have matching `name` and `description` frontmatter. |
 | Static package validator | **VERIFIED** | `python scripts/validate_plugin.py` passes. |
+| Grok CLI manifest validator | **VERIFIED** | Grok CLI `1.0.13` ran `grok plugin validate .` and reported `Plugin manifest is valid`. |
 | Endpoint protection | **VERIFIED** | Unauthenticated `GET https://xmemo.dev/mcp` returned HTTP 401. |
 | OAuth discovery | **VERIFIED** | XMemo authorization-server and protected-resource metadata returned HTTP 200. |
 | Grok local plugin load | **NOT RUN** | Requires a Grok Build client with the local plugin flow enabled. |
